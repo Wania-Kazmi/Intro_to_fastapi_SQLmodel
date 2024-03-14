@@ -22,6 +22,10 @@
 --reload flag:
 It will restart the server every time you make a change to the code.
 
+## Note:
+
+The API docs know the data the clients have to send
+
 # Why we use SQLModel and what are it's advantages?
 
 - SQLModel is a Python library used to interact with databases using the SQL
@@ -29,4 +33,5 @@ It will restart the server every time you make a change to the code.
 - We use the same class model to define the request body that will be received by our API
 
 ## Analogy of SQLModel:
+
 Imagine you're building a house. You have a blueprint that outlines every detail of how your house will be built, from the number of rooms to the types of windows. SQLModel works like that blueprint for your database. It allows you to clearly define the structure of your data, like what kind of information each table will hold and how different pieces of information are related to each other.

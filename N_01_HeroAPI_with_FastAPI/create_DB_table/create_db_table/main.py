@@ -35,7 +35,7 @@ def on_startup():
 
 #now lets insert data into the Hero table:
 @app.post("/heroes/")
-def create_hero(hero: Hero):
+def create_hero(hero: Hero): #here we define the type "Hero" of input data, so API docs knows the data client have to send
     with Session(engine) as session:
         session.add(hero)
         session.commit()
